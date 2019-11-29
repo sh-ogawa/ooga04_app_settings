@@ -32,7 +32,7 @@ public class Ooga04AppSettingsPlugin implements MethodCallHandler {
 
       context.startActivity(intent);
 
-      result.success("Android " + android.os.Build.VERSION.RELEASE);
+      result.success("open notification settings");
     } else {
       result.notImplemented();
     }
